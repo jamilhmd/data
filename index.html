@@ -124,6 +124,17 @@
 
 
 <!-- PROJECT SECTION STARTS -->
+.box-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Crée deux colonnes de taille égale */
+    gap: 20px; /* Espacement entre les projets et entre les lignes */
+}
+
+/* Assurez-vous que les images ne dépassent pas leur conteneur */
+.box img {
+    max-width: 100%;
+    height: auto;
+}    
 <section class="work", id="projects">
   <div class="container">
     <div class="heading">
