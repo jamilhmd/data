@@ -1052,5 +1052,38 @@ header .navbar ul li a:hover {
   }
 }
 /* common media queries ends*/
+/* Certificates Section Starts */
+#certificates {
+  background: #ffffff; /* Fond blanc pour contraster avec le fond général du site */
+  padding: 5rem 9%; /* Espacement interne */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); /* Ombre pour donner de la profondeur */
+  margin-top: 2rem; /* Espacement externe pour ne pas coller à la section précédente */
+}
+
+#certificates h2 {
+  color: #333; /* Couleur du titre */
+  margin-bottom: 2rem; /* Espacement après le titre */
+}
+
+#certificates .certificate {
+  margin-bottom: 2rem; /* Espacement entre les certificats */
+}
+
+#certificates .certificate h3 {
+  color: #2b3dda; /* Couleur du titre du certificat */
+}
+
+#certificates .certificate p.date {
+  font-style: italic;
+  color: #666; /* Couleur de la date */
+}
+
+#certificates .certificate ul {
+  padding-left: 20px; /* Indentation de la liste */
+}
+
+#certificates .certificate ul li {
+  margin-bottom: 10px; /* Espacement entre les éléments de la liste */
+}
 
 
