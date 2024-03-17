@@ -1070,3 +1070,27 @@ header .navbar ul li a:hover {
   top: calc(100% - 12rem);
 }
 /* scroll top ends */
+/* Styles spécifiques pour l'icône de certificat */
+.fas.fa-certificate {
+    /* Ajoutez ici les styles que vous aviez pour l'icône de la mallette,
+       ou créez de nouveaux styles si nécessaire */
+    color: #ffd700; /* Exemple: couleur or pour l'icône de certificat */
+    margin-right: 8px; /* Exemple: espace à droite de l'icône */
+}
+
+/* Styles pour la section des certificats */
+#certificates {
+    /* Vos styles existants pour la section 'experience' peuvent être réutilisés ici.
+       Vous pouvez ajouter ou modifier des styles si vous souhaitez changer l'apparence pour la section 'certificates' */
+    background: #ffffff; /* Exemple: couleur de fond blanche */
+    padding: 20px; /* Exemple: padding autour du contenu de la section */
+    border-top: 3px solid #ffd700; /* Exemple: bordure supérieure dorée */
+}
+
+/* Vous pouvez également vouloir styler le titre de la section 'Certificates' */
+#certificates .heading {
+    /* Style pour le titre de la section 'Certificates' */
+    font-size: 2em; /* Exemple: taille de la police */
+    text-align: center; /* Exemple: alignement du texte */
+    color: #333; /* Exemple: couleur du texte */
+}
