@@ -766,53 +766,41 @@ header .navbar ul li a:hover {
 }
 
 .certificates .heading {
-    margin-bottom: 20px;
+    margin-bottom: 30px; /* ajusté pour plus d'espace */
     color: #333;
-    font-family: Arial, sans-serif;
-}
-
-.certificates .heading .fas {
-    color: #ffa500; /* couleur du logo */
+    font-family: 'Arial', sans-serif;
+    font-size: 2rem; /* taille du titre de la section */
 }
 
 .certificates .certificate-list {
-    max-width: 800px;
+    max-width: 1000px; /* ajusté pour une plus grande largeur si nécessaire */
     margin: auto;
 }
 
 .certificates .certificate-item {
     background-color: #ffffff;
     border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
+    padding: 25px; /* ajusté pour plus d'espace */
+    margin-bottom: 25px; /* ajusté pour plus d'espace */
     border-radius: 8px;
     text-align: left;
 }
 
-.certificates .certificate-item h2 { /* Mise à jour pour le titre du certificat */
-    color: #0056b3; /* Une couleur bleue par exemple */
-    font-size: 1.5rem; /* Agrandir le titre des certificats */
-    margin-bottom: 0.5em;
+.certificates .certificate-item h2 { /* Pour les titres des certificats */
+    color: #0056b3; /* couleur bleue */
+    font-size: 2rem; /* taille agrandie pour les titres des certificats */
+    margin-bottom: 0.75em; /* espace après le titre */
 }
 
 .certificates .certificate-item p {
-    color: #333; /* Couleur plus foncée pour le texte normal */
-    font-size: 1rem; /* Agrandir le texte des paragraphes */
-    margin-bottom: 0.5em; /* Espace après chaque paragraphe */
+    color: #333; /* couleur plus foncée pour le texte normal */
+    font-size: 1.2rem; /* taille agrandie pour les paragraphes */
+    margin-bottom: 1em; /* espace après chaque paragraphe */
 }
 
 .certificates .certificate-item b { /* Pour les sous-titres en gras */
-    color: #28a745; /* Une couleur verte pour les sous-titres */
-}
-
-@media (max-width: 768px) {
-    .certificates .certificate-list {
-        width: 100%;
-        padding: 0 15px;
-    }
-    .certificates .certificate-item h2 {
-        font-size: 1.3rem; /* Ajustez la taille de police pour les petits écrans */
-    }
+    color: #28a745; /* couleur verte pour les sous-titres */
+    font-size: 1.2rem; /* taille agrandie pour les sous-titres en gras */
 }
 /* certificates media queries ends */
 /* certificates section ends */
