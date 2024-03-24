@@ -6,7 +6,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
-  outline: none;
+  outline: none; 
   border: none;
   text-transform: capitalize;
   transition: all 0.1s linear;
