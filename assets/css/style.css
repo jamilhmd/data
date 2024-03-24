@@ -758,14 +758,14 @@ header .navbar ul li a:hover {
 }
 /* work section ends */
 
-/* experience section starts */
-.experience .timeline {
+/* certificates section starts */
+.certificates.timeline {
   position: relative;
   padding-top: 50px;
   max-width: 1200px;
   margin: 0 auto;
 }
-.experience .timeline::after {
+.certificates .timeline::after {
   content: "";
   position: absolute;
   width: 6px;
@@ -776,14 +776,14 @@ header .navbar ul li a:hover {
   margin-left: -3px;
   z-index: -2;
 }
-.experience .container {
+.certificates .container {
   padding: 10px 40px;
   position: relative;
   background-color: inherit;
   width: 50%;
 }
 /*circles on timeline*/
-.experience .container::after {
+.certificates .container::after {
   content: "\f0b1";
   position: absolute;
   width: 25px;
@@ -800,14 +800,14 @@ header .navbar ul li a:hover {
   color: #02094b;
   font-family: "Font Awesome\ 5 Free";
 }
-.experience .left {
+.certificates.left {
   left: 0;
 }
-.experience .right {
+.certificates .right {
   left: 50%;
 }
 /* arrows pointing right */
-.experience .left::before {
+.certificates .left::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -820,7 +820,7 @@ header .navbar ul li a:hover {
   border-color: transparent transparent transparent #f68c09;
 }
 /* arrows pointing left  */
-.experience .right::before {
+.certificates .right::before {
   content: " ";
   height: 0;
   position: absolute;
@@ -832,28 +832,28 @@ header .navbar ul li a:hover {
   border-width: 10px 10px 10px 0;
   border-color: transparent #f68c09 transparent transparent;
 }
-.experience .right::after {
+.certificates .right::after {
   left: -16px;
 }
-.experience .content {
+.certificates .content {
   background-color: #f68c09;
   position: relative;
   border-radius: 6px;
 }
-.experience .content .tag {
+.certificates .content .tag {
   font-size: 1.3rem;
   padding-top: 1.5rem;
   padding-left: 1.5rem;
 }
-.experience .content .desc {
+.certificates .content .desc {
   margin-left: 1.5rem;
   padding-bottom: 1rem;
 }
-.experience .content .desc h3 {
+.certificates .content .desc h3 {
   font-size: 1.5rem;
   font-weight: 600;
 }
-.experience .content .desc p {
+.certificates .content .desc p {
   font-size: 1.3rem;
   padding-right: 3rem;
   text-align: justify;
@@ -895,84 +895,45 @@ header .navbar ul li a:hover {
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
-  .experience {
+  .certificates {
     min-height: 80vh;
   }
-  .experience .timeline {
+  .certificates .timeline {
     margin-top: 2rem;
   }
-  .experience .timeline::after {
+  .certificates .timeline::after {
     left: 31px;
   }
-  .experience .container {
+  .certificates .container {
     width: 100%;
     padding-left: 8rem;
     padding-right: 2rem;
   }
-  .experience .container::after {
+  .certificates .container::after {
     font-size: 2.2rem;
   }
-  .experience .container::before {
+  .certificates .container::before {
     left: 61px;
     border: medium solid #f68c09;
     border-width: 10px 10px 10px 0;
     border-color: transparent #f68c09 transparent transparent;
   }
-  .experience .left::after {
+ .certificates .left::after {
     left: 15px;
   }
-  .experience .right::after {
+ .certificates .right::after {
     left: 15px;
   }
-  .experience .right {
+  .certificates .right {
     left: 0%;
   }
   .morebtn {
     margin-top: 3rem;
   }
 }
-/* experience media queries ends */
-/* experience section ends */
+/* certificates media queries ends */
+/* certificates section ends */
 
-/* certificate section starts */
-.certificates-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
-}
-
-.certificate {
-  background-color: #f3f3f3;
-  border: 1px solid #ddd;
-  border-radius: 8px;
-  overflow: hidden;
-  transition: transform 0.2s ease-in-out;
-}
-
-.certificate:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-}
-
-.certificate img {
-  width: 100%;
-  height: auto;
-  border-bottom: 1px solid #ddd;
-}
-
-.certificate h3 {
-  margin: 10px;
-  font-size: 18px;
-}
-
-.certificate p {
-  margin: 10px;
-  font-size: 14px;
-  color: #666;
-}
-/* certificate media queries ends */
-/* certificate section ends */
 
 /* footer section starts */
 .footer {
